@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the following metadata. Cite Presidio and spaCy separately for the underlying detection method."
+type: software
+title: "Clinical Note Deidentifier: Offline Desktop GUI"
+authors:
+  - family-names: Xu
+    given-names: Hang
+version: 1.0.0
+date-released: 2026-10-07
+repository-code: "https://github.com/Hang1205/clinical-note-deidentifier"
+url: "https://github.com/Hang1205/clinical-note-deidentifier/releases/tag/v1.0.0"
+license: MIT
+abstract: "Offline desktop research utility for batch PHI detection and typed redaction of English clinical notes using local Presidio recognizers and a spaCy NER model. Output requires local review; the software does not certify complete de-identification or regulatory compliance."
+keywords:
+  - clinical notes
+  - de-identification
+  - PHI
+  - offline
+  - desktop GUI
+references:
+  - type: software
+    title: Presidio
+    authors:
+      - name: Presidio Contributors
+    version: 2.2.364
+    url: "https://presidio.dataprivacystack.org/"
+    repository-code: "https://github.com/data-privacy-stack/presidio"
+  - type: software
+    title: spaCy
+    authors:
+      - name: Explosion
+    version: 3.8.16
+    url: "https://spacy.io/"
+    repository-code: "https://github.com/explosion/spaCy"

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+wheelhouse/
+results/
+*.incomplete-*/
+*.csv
+*.csv.gz
+*.tsv
+*.tsv.gz
+*.local.json
+*.log
+.env

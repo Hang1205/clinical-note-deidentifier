@@ -1,0 +1,9 @@
+{
+  "recognizers": [
+    {
+      "entity": "HOSPITAL_IDENTIFIER",
+      "regex": "\\b(?:Hospital ID|Chart number)\\s*[:#=]?\\s*[A-Z]{2}[- ]?\\d{6,10}\\b",
+      "score": 0.95
+    }
+  ]
+}
